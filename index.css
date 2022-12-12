@@ -31,7 +31,7 @@ body {
     font-weight: 400;
 }
 
-.score {
+#score1 {
     background-color: black;
     padding: 30px 55px;
     padding-bottom: 25px;
@@ -42,6 +42,19 @@ body {
     font-size: 70px;
     margin-top: 0;
 }
+
+#score2 {
+    background-color: black;
+    padding: 30px 55px;
+    padding-bottom: 25px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: Digital7, sans-serif;
+    font-size: 70px;
+    margin-top: 0;
+}
+
 
 .pointsboard {
     display: flex;
@@ -54,5 +67,10 @@ body {
     font-family: Digital7, sans-serif;
     color: rgb(206, 181, 94);
     border: 2px solid rgb(206, 181, 94);
+
+}
+
+.points:hover{
+    cursor: pointer;
 
 }
